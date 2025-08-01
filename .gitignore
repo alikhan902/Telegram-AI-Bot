@@ -1,0 +1,29 @@
+# Игнорировать файлы окружения
+.env
+
+# Игнорировать виртуальное окружение Python
+venv/
+.venv/
+
+# Игнорировать файлы сессий
+sessions.json
+
+# Игнорировать файлы редактора/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать логи
+*.log
+
+# Игнорировать кэш Python
+.pytest_cache/
+.mypy_cache/
